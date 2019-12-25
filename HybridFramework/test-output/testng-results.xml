@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up report and test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting done and test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Reports generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20036" started-at="2019-12-25T06:13:39Z" finished-at="2019-12-25T06:13:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20036" started-at="2019-12-25T06:13:39Z" finished-at="2019-12-25T06:13:59Z">
+      <class name="com.automation.testcases.LoginTestCRM">
+        <test-method status="PASS" signature="SetUpSuite()[pri:0, instance:com.automation.testcases.LoginTestCRM@4cdbe50f]" name="SetUpSuite" is-config="true" duration-ms="1007" started-at="2019-12-25T11:43:38Z" finished-at="2019-12-25T11:43:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up report and test is getting ready]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUpSuite -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.automation.testcases.LoginTestCRM@4cdbe50f]" name="openBrowser" is-config="true" duration-ms="8887" started-at="2019-12-25T11:43:39Z" finished-at="2019-12-25T11:43:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting done and test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="LoginApp()[pri:0, instance:com.automation.testcases.LoginTestCRM@4cdbe50f]" name="LoginApp" duration-ms="9248" started-at="2019-12-25T11:43:47Z" finished-at="2019-12-25T11:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp -->
+        <test-method status="PASS" signature="TearDown(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTestCRM@4cdbe50f]" name="TearDown" is-config="true" duration-ms="966" started-at="2019-12-25T11:43:57Z" finished-at="2019-12-25T11:43:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginApp status=SUCCESS method=LoginTestCRM.LoginApp()[pri:0, instance:com.automation.testcases.LoginTestCRM@4cdbe50f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Reports generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automation.testcases.LoginTestCRM@4cdbe50f]" name="closeBrowser" is-config="true" duration-ms="918" started-at="2019-12-25T11:43:58Z" finished-at="2019-12-25T11:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.automation.testcases.LoginTestCRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
