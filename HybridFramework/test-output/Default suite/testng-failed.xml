@@ -6,4 +6,14 @@
       <class name="com.automation.testcases.LoginTestCRM"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.automation.testcases.LoginTestCRM">
+        <methods>
+          <include name="LoginApp"/>
+          <include name="SetUpSuite"/>
+        </methods>
+      </class> <!-- com.automation.testcases.LoginTestCRM -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
